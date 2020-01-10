@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1708973771799592}
+  m_IsPrefabAsset: 1
+--- !u!1 &1708973771799592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4367929986741410}
+  - component: {fileID: 114260890946342404}
+  m_Layer: 0
+  m_Name: Map2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4367929986741410
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708973771799592}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114260890946342404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708973771799592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2521a484ba6612e48b39b64c3ec9e3c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _max_Val: 1
+  _min_Val: 0
+  time: 180
+  _thinWarpDist: 2
+  _cubeWarpDist: 0
+  Ground: {fileID: 1097465267573916, guid: 914ff0b857c5fbd4a90b2a5e786595a4, type: 2}
+  FireWall: {fileID: 1429870677694874, guid: 4ac78385aec25a84796f8e4a0e4ba51b, type: 2}
+  Column1: {fileID: 1588902574960222, guid: 76d0d09c801eda94f85ed58ca617a33f, type: 2}
+  Column2: {fileID: 1519017228283514, guid: 82e3e5252109c9d4e9dc8f2a8ab20dc2, type: 2}
+  Column3: {fileID: 1279280469470442, guid: a121afa6e8028aa49a41164755fa2216, type: 2}
+  Tower_Corner: {fileID: 1739670839093546, guid: 750bbce71f83f2242935ebebcc02c3d1,
+    type: 2}
+  Wall: {fileID: 1421436649694086, guid: b830ca48a9813394a8373277342cff4a, type: 2}
+  SpawnPosition: {fileID: 0}
+  wallMaterial: {fileID: 2100000, guid: 9fcab1d50ca3f904ebaa5b8ae9829e06, type: 2}
+  columnMat: {fileID: 2100000, guid: 965224637509ca24787fde060eea6f06, type: 2}
+  statueMat: {fileID: 2100000, guid: 7b58b2321be40634e9ca86a7fd5e13a7, type: 2}
+  l_fireWalls: []
+  l_wallFireScripts: []
+  _columnsNum: 13
+  _mapWidth: 12
+  fullVer: 0
+  fireRatio: 3
